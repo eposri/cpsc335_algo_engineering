@@ -8,7 +8,9 @@ be defined as shown below:
 > __Input__:  arrays __𝑚__ of related elements, comprising the time intervals, and a HashMap, __𝑑__,
 > representing a daily active periods of all members. __U__ is a global set of all arrays. The
 > problem can be represented as:  
->> <img width="87" height="60" alt="algo2_proj1" src="https://github.com/user-attachments/assets/78b14087-ff1f-4767-8ddd-d1a06908bac9" />
+<div align="center">
+  <img width="87" height="60" alt="algo2_proj1" src="https://github.com/user-attachments/assets/78b14087-ff1f-4767-8ddd-d1a06908bac9" />
+</div>
 
 > __Output__: a set of HashMap, __𝑟__, such that __r__ ⊆ __U__
 
@@ -26,16 +28,16 @@ schedule. Time is given and should be returned in 24hr military format (HH:MM), 
 An algorithm for solving this problem may involve combing the two sub-arrays into an array
 containing a set of unavailabilities, with consideration of the daily active periods.
 
-__Sample Input:__
-person1_Schedule =[[ ‘7:00’, ’8:30’], [’12:00’, ’13:00’], [’16:00’, ’18:00’]]  
-person1_DailyAct = [‘9:00’, ’19:00’]  
+> __Sample Input:__  
+> person1_Schedule =[[ ‘7:00’, ’8:30’], [’12:00’, ’13:00’], [’16:00’, ’18:00’]]  
+> person1_DailyAct = [‘9:00’, ’19:00’]  
 
-person2_Schedule = [[ ‘9:00’, ’10:30’], [’12:20’, ’14:00’], [’14:30’, ’15:00’], [’16:00’, ’17:00’ ]]  
-person2_DailyAct = [‘9:00’, ’18: 30’]  
-duration_of_meeting =30  
+> person2_Schedule = [[ ‘9:00’, ’10:30’], [’12:20’, ’14:00’], [’14:30’, ’15:00’], [’16:00’, ’17:00’ ]]  
+> person2_DailyAct = [‘9:00’, ’18: 30’]  
+> duration_of_meeting =30  
 
-__Sample Output:__
-[[’10:30’, ’12:00’], [’15:00’, ’16:00’], [’18:00’, ’18:30’]]  
+> __Sample Output:__  
+> [[’10:30’, ’12:00’], [’15:00’, ’16:00’], [’18:00’, ’18:30’]]  
 
 ### Pseudocode
 
