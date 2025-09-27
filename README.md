@@ -24,7 +24,7 @@ __Programming Languages:__ C++
 __Date:__ September 27, 2025  
 __Files:__ main.cpp, disk.cpp, disk.h, main.sh  
 
-## To run this program:
+### To run this program:
 ```
 ./main.sh
 ```
