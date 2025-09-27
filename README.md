@@ -8,10 +8,10 @@ to the right hand end. The only moves you are allowed to make are those that int
 positions of two neighboring disks. Design an algorithm for solving this puzzle and determine
 the number of moves it takes.
 
-__Input__: a positive integer __𝑛__ and a list of __2𝑛__ disks of alternating colors light-dark, starting with
-light  
-__Output__: a list of __2𝑛__ disks, the first __𝑛__ disks are dark, the next __𝑛__ disks are light, and an integer
-__𝑚__ representing the number of swaps to move the light ones after the dark ones  
+> __Input__: a positive integer __𝑛__ and a list of __2𝑛__ disks of alternating colors light-dark, starting with
+> light  
+> __Output__: a list of __2𝑛__ disks, the first __𝑛__ disks are dark, the next __𝑛__ disks are light, and an integer
+> __𝑚__ representing the number of swaps to move the light ones after the dark ones  
 
 <img width="659" height="62" alt="algo1_proj1" src="https://github.com/user-attachments/assets/b32462e8-bca7-46b3-aa27-be2df00b2190" />
 
