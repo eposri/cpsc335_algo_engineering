@@ -24,7 +24,8 @@ def add_schedule():
     scheduler[name] = {
         "unavail": [],
         "mins": [],
-        "avail": []
+        "avail": [],
+        "avail_mins": []
     }
 
     while True:
@@ -42,22 +43,19 @@ def add_schedule():
         start_min = convert_minutes(start)
         end_min = convert_minutes(end)
         scheduler[name]["mins"].append([start_min, end_min])
-        
-        # storing data for printing purposes in view_all_schedule
-        # debuggin: print(f"\nCurrent unavailability for {name}: {scheduler[name]["unavail"]}")
-        #print(f"\nCurrent unavailability for {name}: {scheduler[name]["mins"]}")
-        #availability = convert_availability(unavailability)
-    
-    #convert_availability()
 
+    convert_availability()
 
 
 def view_all_schedules():
     print_header("Schedules")
     for name, schedule in scheduler.items():
         print(f"\n{name}'s unavailable schedule: {schedule["unavail"]}")
-        print(f"\n{name}'s minutes schedule: {schedule["mins"]}")
-        #print(f"\n{name}'s available schedule: {schedule["avail"]}")
+        print(f"\n{name}'s unavailable schedule (in mins): {schedule["mins"]}")
+        print(f"\n{name}'s available schedule: {schedule["avail"]}")
+        print(f"\n{name}'s available schedule (in mins): {schedule["avail_mins"]}")
+
+    
 
 def menu():
     print_header("Matching Group Scheduler")
