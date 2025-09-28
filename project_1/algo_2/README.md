@@ -41,22 +41,29 @@ containing a set of unavailabilities, with consideration of the daily active per
 
 ### Pseudocode
 
+            add_schedule()
+
+            view_all_schedules()
+
+            find_availabilities()
+
+
 ### Mathematical Analysis
 
 ## Program Information
-__Programming Languages:__ C++  
+__Programming Languages:__ Python 3.13.5
 __Date:__ September 27, 2025  
-__Files:__ main.cc, schedule.cc, schedule.h, main.sh
+__Files:__ functions.py, main.py
 
 ### To run this program:
 ```
-./main.sh
+python main.py
 ```
 
 ### Development Information
-__OS:__ Ubuntu 22.04.04 LTS  
+__OS:__ Microsoft Windows 10.0.26  
 __Text Editor:__ Visual Studio Code  
-__Tools:__ G++ compiler  
+__Tools:__ Python interpreter (Python 3.13.5)
 
 ### Author Information
 __Name:__ Kayla Ngo  
