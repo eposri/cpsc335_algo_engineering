@@ -13,16 +13,18 @@ the number of moves it takes.
 > __Output__: a list of __2𝑛__ disks, the first __𝑛__ disks are dark, the next __𝑛__ disks are light, and an integer
 > __𝑚__ representing the number of swaps to move the light ones after the dark ones  
 
-<img width="659" height="62" alt="algo1_proj1" src="https://github.com/user-attachments/assets/b32462e8-bca7-46b3-aa27-be2df00b2190" />
+<div align="center">
+    <img width="659" height="62" alt="algo1_proj1" src="https://github.com/user-attachments/assets/b32462e8-bca7-46b3-aa27-be2df00b2190" />
+</div>
 
 ### Pseudocode
 __std::vector<int> generate_disk_list(int n)__  
-Purpose: creates the alternating disks list given an input __n__  
-Input: positive integer __n__  
-Output: vector (__2n__) of type int, where  
->__0__ is light-colored disks  
->__1__ is dark-colored disks  
-Return: a vector of alternating disks, __list__  
+>Purpose: creates the alternating disks list given an input __n__  
+>Input: positive integer __n__  
+>Output: vector (__2n__) of type int, where  
+>>__0__ is light-colored disks  
+>>__1__ is dark-colored disks  
+>Return: a vector of alternating disks, __list__  
 ```
 Let __list__ = a vector of ints
 For each element in __list__:
@@ -32,9 +34,9 @@ Return __list__
 ```  
 
 __void print_disk_list(const std::vector<int>& list)__  
-Input: constant reference to the alternating disks list, __list__  
-Output: prints disk list in 0's and 1's
-Return: nothing
+>Input: constant reference to the alternating disks list, __list__  
+>Output: prints disk list in 0's and 1's
+>Return: nothing
 
 ```
 For every __disk__ in __list__:
@@ -43,11 +45,11 @@ For every __disk__ in __list__:
 ```  
 
 __int sort_disk_list(std::vector<int>& list)__  
-Purpose: modifies disk list to be sorted from dark to light  
-Input: reference to the alternating disks list, __list__  
-Output: sorted disk list (__2n__)  
-> first __n__ is dark-colored (1)  
-> remaining __n__ is light-colored (0)  
+>Purpose: modifies disk list to be sorted from dark to light  
+>Input: reference to the alternating disks list, __list__  
+>Output: sorted disk list (__2n__)  
+>> first __n__ is dark-colored (1)  
+>> remaining __n__ is light-colored (0)  
 ```
 Let __m__ = number of swaps
 Let __swap__ = true
@@ -115,7 +117,10 @@ This gives a total complexity of:
 T(n) = 2n + 1 + n + 14n^2  
 T(n) = 14n^2 + 3n + 1  
 
-O(n^2)
+T(n) seems to resemble the quadratic efficiency class O(n^2).
+Assume T(n) = 14n^2 + 3n + 1 and f(n) = n^2,
+
+
 
 ## Program Information
 __Programming Languages:__ C++  

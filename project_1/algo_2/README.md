@@ -46,7 +46,7 @@ containing a set of unavailabilities, with consideration of the daily active per
 ## Program Information
 __Programming Languages:__ C++  
 __Date:__ September 27, 2025  
-__Files:__ main.cpp, schedule.cpp, schedule.h, main.sh
+__Files:__ main.cc, schedule.cc, schedule.h, main.sh
 
 ### To run this program:
 ```
