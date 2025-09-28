@@ -117,10 +117,12 @@ This gives a total complexity of:
 T(n) = 2n + 1 + n + 14n^2  
 T(n) = 14n^2 + 3n + 1  
 
-T(n) seems to resemble the quadratic efficiency class O(n^2).
-Assume T(n) = 14n^2 + 3n + 1 and f(n) = n^2,
-
-
+T(n) seems to resemble the quadratic efficiency class O(n^2).  
+Assume T(n) = 14n^2 + 3n + 1 and f(n) = n^2,  
+<div align="center>
+    <img width="408" height="549" alt="proj_1_algo_1_math_analysis" src="https://github.com/user-attachments/assets/9bae76db-0ae4-4639-ace4-a0f7df2a4a3b" />
+</div>
+    
 
 ## Program Information
 __Programming Languages:__ C++  
